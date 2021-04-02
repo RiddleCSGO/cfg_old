@@ -1,0 +1,62 @@
+.setup displays the practicemode menu
+.prac launches practice mode and displays the .setup menu
+.help displays help page
+.settings opens the client settings menu
+
+.nades [filter] displays a menu to select saved grenade positions. .nades with no argument shows all nades. filter can be any of: nade ids, category name, player name, or part of a grenade name
+.cats displays a menu of all saved grenades by category
+.save <name> saves your current position as a grenade spot with the given name
+.goto <grenadeid> teleports you to a player's saved grenade (or your own if no player is named)
+.delete deletes the last grenade of yours that you used .goto (or .nades) to teleport to
+.find <text> searches all grenade names for a text match
+
+.desc <description> adds a grenade description to your last grenade
+.rename <new name> renames your last grenade
+.addcat <category> ... adds a category to your last grenade
+.removecat <category> removes a category from your last grenade
+.clearcats removes all categories on your last grenade
+.deletecat <category> removes a category from all of your saved grenades
+.copy <username> <grenadeid> copies another user's grenade and saves it for you
+.setdelay <delay> sets a delay on your last grenade. This is only used when using .throw against a category
+
+.last teleports you back to where you threw your last grenade from
+.back teleports you back a position in your grenade history (you can also do .back 5 to go to the 5th grenade you threw, for example)
+.forward teleports you forward a position in your grenade history
+.flash saves you position to test flashbangs against it. Use this command in a spot you want to try to blind, then move and throw the flashbang; you will be teleported back to the position and see how effective the flashbang is. Use .stop to cancel.
+.throw [filter] automatically throws all grenades matching the filter. With no filter, throws the last grenade you threw.
+.noflash makes it so no flashbangs will blind you (they still blind others)
+
+.respawn makes you respawn at the spot you are standing (.stop to cancel)
+.spawn <number> teleports you to a spawn #, using your team's spawns (CT or T). Closest spawn is used if no argument is given
+.ctspawn <number> same as .spawn, but using CT only regardless of what team you are on
+.tspawn <number> same as .spawn, but using T only regardless of what team you are on
+.namespawn <name> saves the closest spawn to you under a name, which can then be gone to via .spawn <name>
+.bestspawn teleports you to your team's closest spawn from your current position
+.worstspawn teleports you to your team's furthest spawn from your current position
+
+.bots opens the bot menu for easier access to most of the below commands
+.bot adds a bot where you're standing (or crouching!); .crouchbot to force a crouching bot
+.ctbot, .tbot same as .bot, but forces the bot's team to CT or T
+.botplace adds a bot at the point you're looking at (similar to the bot_place command)
+.boost spawns a bot boosting you (crouch-boosting if you're crouching); .crouchboost to force a crouching bot
+.swapbot swaps your position with the nearest bot (temporarily, the bot will respawn in the original spot still)
+.movebot moves the last bot you placed to your current position
+.nobot removes the bot you're aiming at (can also use .kickbot or .removebot)
+.nobots clears all bots (.clearbots, .removebots, .kickbots also work)
+.savebots saves all current bots to a file
+.loadbots loads bots from the file (written by the last .savebots)
+
+.timer starts a timer when you start moving in any direction, and stops it when you stop moving, telling you the duration of time between starting/stopping
+.timer2 starts a timer immediately and stops it when you type .timer2 again, telling you the duration of time
+.countdown <duration> starts a countdown timer for the duration specified (in seconds), defaulting to the round duration (the mp_roundtime cvar).
+.fastfoward (or .ff) speeds up the server clock briefly so smokes dissipate quickly
+.repeat <interval> <command> give a number of seconds and a chat command, the command will automatically repeat at the given interval. For example: .repeat 3 .throw repeats .throw every 3 seconds
+.delay <duration> <command> runs the given chat command after a given duration (in seconds)
+.map changes map (you can use a map name like .map de_dust2 or just .map to get a menu)
+.dryrun disables most practicemode settings (leaving infinte money on)
+.savepos temporarily saves a position so you can .back to it (this adds the position to the list of grenade positions you've thrown)
+.god toggles god mode (alias for the god command in console; requires sv_cheats to be on)
+.endround ends the round (alias for the endround command in console; requires sv_cheats to be on)
+.break breaks all func_breakable entities (most windows)
+.stop cancels a current action (this can stop many things: the .flash command, the .repeat command, and the .timer command)
+.spec, .t, .ct joins a team

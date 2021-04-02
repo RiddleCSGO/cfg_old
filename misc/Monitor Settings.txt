@@ -1,0 +1,37 @@
+BenQ Zowie XL2546K Monitor Settings
+
+Gamer Profiles 1, 2, 3. 
+1: Brightness 40
+2: standard
+3: no dyac, no ama
+
+Color
+Black eQ: 			10
+Color Vibrance: 	11
+Low BlueLight: 		0
+Gamma: 				3
+Color Temperature: 	R94 G100 B100
+Color Weakness: 	OFF
+
+Picture
+DyAc+: 				Premium
+Brightness: 		75
+Contrast: 			55
+Sharpness: 			7
+AMA: 				Premium
+
+Display
+Input: 				Display Port
+Display Mode: 		Full 
+RGB Range: 			RGB 0-255
+
+System
+Headphone Mute: 	On
+OSD Language: 		English
+OSD Display Time: 	20 sec
+Resolution Notice: 	OFF
+Buzzer: 			OFF
+Input Auto Switch: 	OFF
+Auto Power off: 	OFF
+LED Indicator: 		OFF
+DDC/CI: 			ON

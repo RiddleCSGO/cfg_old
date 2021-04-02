@@ -1,0 +1,38 @@
+NVIDIA CONTROL PANEL SETTINGS:
+
+Image Sharpening:				Sharpening Off, Scaling Off
+Ambient Occlusion:				Off
+Anisotropic filtering:			Application-controlled
+Antialiasing - FXAA:			Off
+Antialiasing - Gamma:			On
+Antialiasing - Mode:			Application-controlled
+Antialiasing - Setting:			Application-controlled
+Antialiasing - Transparency:	Off
+
+Background Application Max Frame Rate:	Off
+CUDA - GPUs:		All
+DSR - Factors:		Off
+DSR - Smoothness:	Off
+Low Latency Mode:	Off
+Max Frame Rate:		Off
+MFAA:				Off
+
+OpenGL rendering CPU:	RTX3060TI
+Power management mode:	Prefer maximum performance
+Preferred refresh rate:	Highest available
+Shader Cache:			On
+
+Texture Filtering - Anisotropic:			On
+Texture Filtering - Negaitve LOD bias: 		Allow
+Texture Filtering - Quality: 				High Performance
+Texture Filtering - Trilinear optimization:	On
+
+Triple Buffering:	Off
+Vertical Sync:		Off
+Virtual Reality pre-rendered frames:		1
+Virtual Reality - Variable Rate:			Off
+
+---
+
+Custom Resolution: 1440x1080 240Hz Progressive Timing Auto
+Scaling Full-screen. Perform scaling on GPU
