@@ -25,7 +25,7 @@ Then add to your launch options: -language riddle
 
 This Config is for German Keyboard Layout! 
 
-1440x1080 4:3 stretched, 1.0 sensitivity, 800DPI, 1000Hz, Win 4/11, Acc off 
+1440x1080 4:3 stretched, 1.2 sensitivity, 800DPI, 1000Hz, Win 4/11, Acc off 
 
 Launch Options: -novid -tickrate 128 -language riddle
 
