@@ -15,7 +15,7 @@ you can find [your steam number] by opening Steam -> [your name] -> Inventory ->
 
 ------------------------------------------------------------------
 
-The csgo_riddle.txt language file goes to:
+Copy  the csgo_riddle.txt language file to:
 
 C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource
 
@@ -23,11 +23,17 @@ Then add to your launch options: -language riddle
 
 ------------------------------------------------------------------
 
+Copy the Simple Radar Map Overview files to:
+
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\overviews
+
+------------------------------------------------------------------
+
 This Config is for German Keyboard Layout! 
 
 1440x1080 4:3 stretched, 1.2 sensitivity, 800DPI, 1000Hz, Win 4/11, Acc off 
 
-Launch Options: -novid -tickrate 128 -language riddle
+Launch Options: -nobrowser -tickrate 128 -novid -language riddle
 
 ------------------------------------------------------------------
 
