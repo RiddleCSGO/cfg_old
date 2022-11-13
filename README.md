@@ -29,11 +29,17 @@ C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\cs
 
 ------------------------------------------------------------------
 
+Copy the CSGO Benchmark Master folder:
+
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\
+
+------------------------------------------------------------------
+
 This Config is for German Keyboard Layout! 
 
 1440x1080 4:3 stretched, 1.2 sensitivity, 800DPI, 1000Hz, Win 4/11, Acc off 
 
-Launch Options: -nobrowser -tickrate 128 -novid -language riddle
+Launch Options: -no-browser -tickrate 128 -novid -language riddle
 
 ------------------------------------------------------------------
 
